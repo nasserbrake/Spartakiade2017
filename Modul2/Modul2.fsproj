@@ -46,6 +46,7 @@
     <Compile Include="Tuple.fs" />
     <Compile Include="Record.fs" />
     <Compile Include="DU.fs" />
+    <Compile Include="Option.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
