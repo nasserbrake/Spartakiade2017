@@ -1,1 +1,0 @@
-fsi 01ErsteSchritte.fsx
