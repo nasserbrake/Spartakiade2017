@@ -30,3 +30,12 @@ let matchTuple c =
     | _,_ -> "sonst"
 
 let c = matchTuple (1.0,1.0)
+
+open System
+let showParseResult result = 
+    match result with
+    | true,value -> sprintf "Geparster Wert ist %s" (value.ToString())
+    | false,_ -> "Wert könnte nicht geparst werden" 
+
+let tryParseResult = Int32.TryParse "Irgendwas" |> showParseResult
+let tryParseResult' = Int32.TryParse "1" |> showParseResult
