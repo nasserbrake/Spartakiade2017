@@ -20,5 +20,3 @@ let add1 x =
 let addOneToInt x = x + 1
 let addOneToFloat x = x + 1.0
 let addMoreToString x = x + "More"
-
-let apply f x :int = f x
