@@ -8,6 +8,13 @@ let intStringTuple  = 1,"string"
 
 type TripleIntTuple = int * int * int
 let tripleIntTuple = 1,2,3
+let first,second,third = tripleIntTuple
+
+let doubleIntTuple = 1,2
+let first0 = fst doubleIntTuple
+let sound0 = snd doubleIntTuple
+
+
 
 type Complex = float * float
 let complex  = 1.0,1.0
