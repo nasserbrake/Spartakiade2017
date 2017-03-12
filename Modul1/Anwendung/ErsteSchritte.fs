@@ -18,6 +18,5 @@ let c = "Zeichenkette"
 // bool
 let d = true
 
-// Addiert 1
-let add1 x = x + 1
+
 
