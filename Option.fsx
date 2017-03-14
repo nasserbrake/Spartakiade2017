@@ -146,3 +146,5 @@ values |> List.map addTen |> List.filter Option.isNone |> List.length
 
 
 
+Option.map
+Option.bind
