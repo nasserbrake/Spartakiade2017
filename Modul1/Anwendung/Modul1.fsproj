@@ -59,6 +59,7 @@
     <Compile Include="Function.fs" />
     <None Include="Try.fsx" />
     <Compile Include="Patternmatching.fs" />
+    <Compile Include="List.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
