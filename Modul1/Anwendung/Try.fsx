@@ -6,3 +6,7 @@ open ErsteSchritte
 open Function
 open Aufgabe
 
+let i = 1
+
+printfn "mein int %i" i
+

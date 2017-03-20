@@ -24,6 +24,7 @@ let composition  = intStringTuple,complex
 
 let cFirst,cSecond = complex
 let kFirst,kSecond = composition
+let _,kdd = composition
 
 let complexZweite = 1.0,1.0
 let complexDritte = 2.0,1.0
